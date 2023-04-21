@@ -1,0 +1,89 @@
+
+.main {
+  display: grid;
+	grid-gap: 2rem;
+}
+.item {
+	padding: 20px;
+	font-size: 30px;
+	font-family: sans-serif;
+	color: white;
+
+	&--1 {
+		background-color: orangered;
+	}
+
+	&--2 {
+		background-color: yellowgreen;
+    &-1 {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+	}
+
+	&--3 {
+		background-color: blueviolet;
+	}
+
+	&--4 {
+		background-color: palevioletred;
+	}
+
+	&--5 {
+		background-color: royalblue;
+	}
+
+	&--6 {
+		background-color: goldenrod;
+	}
+
+  &--7 {
+		background-color: goldenrod;
+	}
+  &--8 {
+		background-color: goldenrod;
+	}
+  &--9 {
+		// background-color: goldenrod;
+    color:black;
+    display: grid;
+    justify-content: center;
+	}
+  &--10 {
+		background-color: goldenrod;
+	}
+  &--11 {
+		background-color: goldenrod;
+	}
+}
+.plan-board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+// for some css stylings
+body {
+display: flex;
+justify-content: center;
+}
+.box {
+display: flex;
+justify-content: center;
+color: #AAA;
+  &-price {
+    display: flex;
+    justify-content: center;
+    color:black;
+  }
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+h6 {
+  margin-top: -18px;
+}
